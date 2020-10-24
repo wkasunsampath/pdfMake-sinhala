@@ -1,5 +1,14 @@
 # pdfMake-sinhala
 Sinhala Unicode support for pdfMake - PDF Library
+
+## Getting Started
+
+> [pdfmake](https://github.com/bpampuch/pdfmake) is library for PDF printing in pure JavaScript.
+
+By default pdfmake uses [Roboto](https://fonts.google.com/specimen/Roboto) font, which does not support Unicode characters.
+
+This package is an extension for adding sinhala unicode character support. It comes with a iscolapotha unicode font support.
+
 ## Usage
 
 > Note: You **don't** need to include `vfs_fonts.js` file from pdfmake library.
@@ -37,3 +46,10 @@ Sinhala Unicode support for pdfMake - PDF Library
   };
   pdfMake.createPdf(docDefinition).download('myPDF');
 </script>
+
+## Supported Languages
+* Sinhala
+
+## Licence
+
+The PDFMake Unicode is open-sourced software licensed under the [MIT license].
