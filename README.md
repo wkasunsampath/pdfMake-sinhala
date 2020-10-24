@@ -46,6 +46,7 @@ This package is an extension for adding sinhala unicode character support. It co
   };
   pdfMake.createPdf(docDefinition).download('myPDF');
 </script>
+```
 
 ## Supported Languages
 * Sinhala
